@@ -84,7 +84,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 375px;
-  max-width: 400px;
+  max-width: 430px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,6 +129,7 @@ main {
 
 .card section .change {
   margin-left: auto;
+  color: #1f2f56;
 }
 
 .card section .change:hover {

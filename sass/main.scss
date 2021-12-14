@@ -88,7 +88,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 375px;
-  max-width: 400px;
+  max-width: 430px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,6 +131,7 @@ main {
 
 .card section .change {
   margin-left: auto;
+  color: $DarkBlue;
 }
 .card section .change:hover {
   text-decoration: none;
