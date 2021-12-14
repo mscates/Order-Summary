@@ -1,0 +1,177 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  position: relative;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  min-height: 100%;
+  margin: auto;
+}
+
+.container .pattern-background,
+.container .pattern-background-mobile {
+  width: 100%;
+}
+
+.container .pattern-background-mobile {
+  display: none;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 375px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.card .hero {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card .hero-mobile {
+  display: none;
+}
+
+.card .below-image {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.card h2 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.card .below-image > p {
+  margin-bottom: 20px;
+}
+
+.card section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.card section .change {
+  margin-left: auto;
+}
+
+.card section .change:hover {
+  text-decoration: none;
+  color: #766af0;
+}
+
+.card section .music {
+  margin-right: 20px;
+}
+
+.card .below-image button {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #3829e0;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.card .below-image button:hover {
+  background-color: #766af0;
+}
+
+.cancel {
+  text-decoration: none;
+  color: #7280a7;
+}
+
+.cancel:hover {
+  color: #000;
+  font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .container .pattern-background {
+    display: none;
+  }
+
+  .container .pattern-background-mobile {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
