@@ -117,7 +117,7 @@ main {
   margin-bottom: 20px;
 }
 
-.card section {
+.card .plan-section {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -127,17 +127,17 @@ main {
   padding: 20px;
 }
 
-.card section .change {
+.card .plan-section .change {
   margin-left: auto;
   color: #1f2f56;
 }
 
-.card section .change:hover {
+.card .plan-section .change:hover {
   text-decoration: none;
   color: #766af0;
 }
 
-.card section .music {
+.card .plan-section .music {
   margin-right: 20px;
 }
 
