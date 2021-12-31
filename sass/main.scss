@@ -1,4 +1,3 @@
-//font-family: 'Red Hat Display', sans-serif;
 $PaleBlue: hsl(225, 100%, 94%);
 $BrightBlue: hsl(245, 75%, 52%);
 $VeryPaleBlue: hsl(225, 100%, 98%);
@@ -15,17 +14,13 @@ $DarkBlue: hsl(223, 47%, 23%);
   margin: 0;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   line-height: 1.5;
   font-size: 16px;
   background-color: $PaleBlue;
   font-family: "Red Hat Display", sans-serif;
   position: relative;
+  min-height: 100vh;
 }
 
 img,
@@ -128,10 +123,16 @@ main {
   margin-bottom: 30px;
   padding: 20px;
 }
+.plan .annual {
+  font-weight: 900;
+}
+.plan .price {
+  color: $DesaturatedBlue;
+}
 
 .card .plan-section .change {
   margin-left: auto;
-  color: $DarkBlue;
+  color: $BrightBlue;
 }
 .card .plan-section .change:hover {
   text-decoration: none;

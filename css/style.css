@@ -8,17 +8,13 @@
   margin: 0;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 body {
   line-height: 1.5;
   font-size: 16px;
   background-color: #e0e8ff;
   font-family: "Red Hat Display", sans-serif;
   position: relative;
+  min-height: 100vh;
 }
 
 img,
@@ -127,9 +123,17 @@ main {
   padding: 20px;
 }
 
+.plan .annual {
+  font-weight: 900;
+}
+
+.plan .price {
+  color: #7280a7;
+}
+
 .card .plan-section .change {
   margin-left: auto;
-  color: #1f2f56;
+  color: #3829e0;
 }
 
 .card .plan-section .change:hover {
